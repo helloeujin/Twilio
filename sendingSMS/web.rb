@@ -4,8 +4,8 @@ require 'twilio-ruby'
 
 # To find these visit https://www.twilio.com/user/account
 
-account_sid = "AC057a2d8192eae97fdafe9dbc6c688dc6"
-auth_token = "086057d5fc72ca6b195f967fce2ba375"
+account_sid = ""
+auth_token = ""
 
 @client = Twilio::REST::Client.new account_sid, auth_token
 
