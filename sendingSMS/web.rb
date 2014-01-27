@@ -10,9 +10,8 @@ auth_token = "086057d5fc72ca6b195f967fce2ba375"
 @client = Twilio::REST::Client.new account_sid, auth_token
 
 @message = @client.account.messages.create({
-                                  #:to => "+19178685970",
-                                  :to => "+16467172770",
-                                  :from => "+13479605166",
+                                  :to => "",
+                                  :from => "",
                                   :body => "Hi!"})
 
 get '/' do
